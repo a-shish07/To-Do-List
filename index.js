@@ -1,6 +1,7 @@
 const inputBox = document.getElementById("input-box");
 const listContainer = document.getElementById("list-container");
 
+// Function code for the Add Task button
 function AddTask(){
 if(inputBox.value ===''){
     alert("You must write something !");
@@ -14,7 +15,7 @@ else{
     li.appendChild(span);
 }
 inputBox.value = "";
-saveData();
+saveData();   // For saving data
 }
 
 listContainer.addEventListener("click",function(e){
