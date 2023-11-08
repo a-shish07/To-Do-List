@@ -34,6 +34,7 @@ function saveData(){
     localStorage.setItem("data",listContainer.innerHTML);
 }
 
+// Function code to show the task 
 function showTask(){
     listContainer.innerHTML = localStorage.getItem("data");
 }
