@@ -18,7 +18,7 @@ inputBox.value = "";
 saveData();   // For saving data
 }
 
-// 
+// Function code for the click action
 listContainer.addEventListener("click",function(e){
     if(e.target.tagName === "LI"){
         e.target.classList.toggle("checked");
